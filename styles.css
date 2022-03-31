@@ -1,0 +1,55 @@
+h1, h2, h3, p, ul{
+    color: white;
+    padding: .5em;
+}
+
+a{
+    color:  rgb(255, 166, 0);
+}
+header,main,aside,footer {
+    background-color: rgb(212, 166, 255);
+    padding: .25em;
+    border-radius: .5em;
+    margin: 1em;
+    
+}
+
+nav, section, form{
+    background-color: blueviolet;
+    margin: 1em;
+    border-radius: .5em;
+    padding: 1em;
+}
+ main{
+    width: 75%;
+}
+
+div{
+    margin: -.5em;
+	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+}
+
+aside{
+    width: 20%;
+    text-align: center;
+}
+input{
+    border-radius: .5em;
+    width: 100%;
+}
+
+textarea{
+    border-radius: .5em;
+}
+
+  footer{
+      text-align: center;
+  }
+  footer{
+    text-align: center;
+} footer p{
+    font-size: 1.5EM;
+}
